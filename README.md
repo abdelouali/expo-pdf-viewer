@@ -84,7 +84,7 @@ This approach avoids native code entirely — making it **fully Expo Go compatib
 You can clone this repo and link it to an Expo app to test changes:
 
 ```bash
-git clone https://github.com/yourusername/expo-pdf-viewer.git
+git clone https://github.com/abdelouali/expo-pdf-viewer.git
 cd expo-pdf-viewer
 npm install
 npm run build
@@ -111,7 +111,7 @@ If you build something cool on top of this library, please share it — I’d lo
 
 ## 🪪 License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Abdelouali Benkheil](https://github.com/abdelouali)
 
 ---
 
