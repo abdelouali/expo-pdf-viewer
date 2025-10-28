@@ -1,6 +1,6 @@
 # 📄 Expo PDF Viewer
 
-[![npm version](https://img.shields.io/npm/v/expo-pdf-viewer.svg?style=flat-square)](https://www.npmjs.com/package/expo-pdf-viewer)
+[![npm version](https://img.shields.io/npm/v/pdf-viewer-expo.svg?style=flat-square)](https://www.npmjs.com/package/pdf-viewer-expo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platforms-iOS%20%7C%20Android%20%7C%20Web-lightgrey.svg?style=flat-square)](#)
 
@@ -23,9 +23,9 @@ A lightweight, **Expo Go–compatible PDF viewer** for React Native — powered 
 ## 📦 Installation
 
 ```bash
-npm install expo-pdf-viewer react-native-webview
+npm install pdf-viewer-expo react-native-webview
 # or
-yarn add expo-pdf-viewer react-native-webview
+yarn add pdf-viewer-expo react-native-webview
 ```
 
 > 💡 If you're using **Expo Go**, `react-native-webview` is already supported — no config or prebuild needed.
@@ -37,7 +37,7 @@ yarn add expo-pdf-viewer react-native-webview
 ```tsx
 import React from 'react';
 import { View } from 'react-native';
-import { ExpoPDFViewer } from 'expo-pdf-viewer';
+import { ExpoPDFViewer } from 'pdf-viewer-expo';
 
 export default function App() {
   return (
@@ -84,8 +84,8 @@ This approach avoids native code entirely — making it **fully Expo Go compatib
 You can clone this repo and link it to an Expo app to test changes:
 
 ```bash
-git clone https://github.com/abdelouali/expo-pdf-viewer.git
-cd expo-pdf-viewer
+git clone https://github.com/abdelouali/pdf-viewer-expo.git
+cd pdf-viewer-expo
 npm install
 npm run build
 npm pack
@@ -95,7 +95,7 @@ Then install it in your Expo project:
 
 ```bash
 cd ../your-expo-app
-npm install ../expo-pdf-viewer/expo-pdf-viewer-1.0.0.tgz
+npm install ../pdf-viewer-expo/pdf-viewer-expo-1.0.0.tgz
 ```
 
 ---

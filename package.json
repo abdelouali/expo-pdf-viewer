@@ -1,5 +1,5 @@
 {
-  "name": "expo-pdf-viewer",
+  "name": "pdf-viewer-expo",
   "version": "1.0.0",
   "description": "A lightweight Expo Go–compatible PDF viewer for React Native using WebView and PDF.js.",
   "main": "src/index.tsx",
@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdelouali/expo-pdf-viewer.git"
+    "url": "git+https://github.com/abdelouali/pdf-viewer-expo.git"
   }
 }
